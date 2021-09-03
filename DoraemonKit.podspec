@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     ss.dependency 'GCDWebServer'
     ss.dependency 'GCDWebServer/WebUploader'
     ss.dependency 'GCDWebServer/WebDAV'
-    ss.dependency 'FMDB'
+    ss.dependency 'FMDB/SQLCipher'
     ss.dependency 'AFNetworking'
   end
 
